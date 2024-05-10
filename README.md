@@ -1,7 +1,7 @@
 # Pangenome_complex_loci
 visualize and genotype structural variants in the human pangenome graphs (Figure 5 of [A draft human pangenome reference](https://doi.org/10.1038/s41586-023-05896-x))
 
-## Visualize structure of complex loci in [bandage plot](https://github.com/rrwick/Bandage) 
+## Visualize structure of complex loci using [bandage plot](https://github.com/rrwick/Bandage) 
 - Select reference ranges of specific loci:
 
   The region we used for the loci is ~10kb upstream downstream to the start and end of the genes to ensure all bubbles at the gene region are included in the pangenome subgraph. Take RHD/RHCE loci as an example, positions of RHD, TMEM50A and RHCE genes in GRCh38 are:

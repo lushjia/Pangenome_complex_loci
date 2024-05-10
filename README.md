@@ -37,8 +37,8 @@ visualize and genotype structural variants in the human pangenome graphs (Figure
   ```
 - To show locations of genes on Bandage plots, we applied colour gradients from green to blue to the nodes of each gene. 
   
-  Customized color on bandage can be added by uploada a csv file to bandage, detail can be file here: https://github.com/rrwick/Bandage/wiki/Colour-schemes
-  (there is potential bandage command line to accomplish this, but I haven't tried)
+  Customized color on bandage can be added by uploada a csv file to bandage, detail can be found here: https://github.com/rrwick/Bandage/wiki/Colour-schemes
+  (command line of bandage might also accomplish this, but I have never tried)
 
 - Lines alongside the Bandage plots showing approximate gene positions, exons and transcription start sites based on Ensembl Canonical transcripts were drawn by hand.
   (to be edited)        

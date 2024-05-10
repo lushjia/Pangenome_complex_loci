@@ -41,8 +41,8 @@ visualize and genotype structural variants in the human pangenome graphs (Figure
   (there is potential bandage command line to accomplish this, but I haven't tried)
 
 - Lines alongside the Bandage plots showing approximate gene positions, exons and transcription start sites based on Ensembl Canonical transcripts were drawn by hand.
-
-  Software: adobe illustrator  # to be edited
+  (to be edited)        
+  Software: adobe illustrator  
   Load bandage plot into adobe illustrator,  
   Exon position: Nodes of exons and genes are found by align sequences to pangenome graph by GraphAligner. Mark those nodes in bandage plot.   
   Lines are drawn by curvature tool along with the gene. Arrows at the end of each line are added by changing stroke.  
@@ -52,6 +52,8 @@ visualize and genotype structural variants in the human pangenome graphs (Figure
 
   
   
-## visualize structural alleles 
+## Genotype and visualize structural alleles 
+  (to be edited)            
+  <img width="500" alt="Screenshot 2024-05-10 at 1 48 33 AM" src="https://github.com/lushjia/Pangenome_complex_loci/assets/38059727/cc4d03ca-3e99-4289-a800-e2546745cad4">
 
 

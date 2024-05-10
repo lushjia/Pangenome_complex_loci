@@ -47,7 +47,10 @@ visualize and genotype structural variants in the human pangenome graphs (Figure
   Exon position: Nodes of exons and genes are found by align sequences to pangenome graph by GraphAligner. Mark those nodes in bandage plot.   
   Lines are drawn by curvature tool along with the gene. Arrows at the end of each line are added by changing stroke.  
   To make lines match the curve of the bandage plot, we adjusted the curve and position of each anchor by direct selection tool.   
-  Exons are drawn by rectangle tool. Widths and positions are based on alignment results.  
+  Exons are drawn by rectangle tool. Widths and positions are based on alignment results.
+      <img width="500" alt="Screenshot 2024-05-10 at 1 44 42 AM" src="https://github.com/lushjia/Pangenome_complex_loci/assets/38059727/3c11f344-188e-4fdf-b196-c8ba5e20bb6c">
+
+  
   
 ## visualize structural alleles 
 

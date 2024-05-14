@@ -1,7 +1,7 @@
 # Pangenome_complex_loci
 visualize and genotype structural variants in the human pangenome graphs (Figure 5 of [A draft human pangenome reference](https://doi.org/10.1038/s41586-023-05896-x))
 
-## Visualize structure of complex loci using [bandage plot](https://github.com/rrwick/Bandage) 
+## Visualize structures of complex loci using [bandage plot](https://github.com/rrwick/Bandage) 
 - Select reference ranges of specific loci:
 
   The region we used for the loci is ~10kb upstream downstream to the start and end of the genes to ensure all bubbles at the gene region are included in the pangenome subgraph. Take RHD/RHCE loci as an example, positions of RHD, TMEM50A and RHCE genes in GRCh38 are:
@@ -53,7 +53,13 @@ visualize and genotype structural variants in the human pangenome graphs (Figure
   
   
 ## Genotype and visualize structural alleles 
-  (to be edited)            
+- Sequences of each assembly are represented by paths in a GFA file, and variants are represented by bubbles in the graph.
+- Copy number of genes in the graph could be told from GraphAligner result 
+- Big insertion, deletion of genes are identified by tracing paths of each assembly (which represent sequences) through big bubbles.
+- Gene conversions, which are not shown as bubbles in the graph, are identified more complexly.
+  we identified nodes that were different between a gene and its homologous gene (for example, RHD and RHCE) based on the GraphAligner alignments described above. We refer to these as paralogous sequence variants. A gene conversion event was detected if a path of a gene goes through more than four paralogous sequence variants of its homologous gene in a row.
+- Other small insertion, deletion and SNPs are ignored in this analysis. 
+           
   <img width="500" alt="Screenshot 2024-05-10 at 1 48 33 AM" src="https://github.com/lushjia/Pangenome_complex_loci/assets/38059727/cc4d03ca-3e99-4289-a800-e2546745cad4">
 
 

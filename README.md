@@ -54,11 +54,11 @@ visualize and genotype structural variants in the human pangenome graphs (Figure
   
 ## Genotype and visualize structural alleles 
 - Sequences of each assembly are represented by paths in a GFA file, and variants are represented by bubbles in the graph.
-- Copy number of genes in the graph could be told from GraphAligner result 
-- Big insertion, deletion of genes are identified by tracing paths of each assembly (which represent sequences) through big bubbles.
-- Gene conversions, which are not shown as bubbles in the graph, are identified more complexly.
+- Copy number of genes in the graph could be told from where the gene sequence has been aligned to the grpah based on GraphAligner results. Copy number of genes in each assembly can then be told by tracing the path of assembly through the regions that the genes have been aligned. 
+- Big insertions, deletions of each assembly are identified by tracing paths of each assembly (which represent sequences) through big bubbles.
+- Gene conversions are more complex to identiry, because they are not shown as bubbles in the graph.         
   we identified nodes that were different between a gene and its homologous gene (for example, RHD and RHCE) based on the GraphAligner alignments described above. We refer to these as paralogous sequence variants. A gene conversion event was detected if a path of a gene goes through more than four paralogous sequence variants of its homologous gene in a row.
-- Other small insertion, deletion and SNPs are ignored in this analysis. 
+- Other small insertion, deletion and SNPs are not covered by this analysis. 
            
   <img width="500" alt="Screenshot 2024-05-10 at 1 48 33 AM" src="https://github.com/lushjia/Pangenome_complex_loci/assets/38059727/cc4d03ca-3e99-4289-a800-e2546745cad4">
 

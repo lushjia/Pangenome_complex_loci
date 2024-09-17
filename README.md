@@ -1,4 +1,4 @@
-# Pangenome_complex_loci
+# Pangenome complex loci
 visualize and genotype structural variants in the human pangenome graphs (Figure 5 of [A draft human pangenome reference](https://doi.org/10.1038/s41586-023-05896-x))
 
 ## Visualize structures of complex loci using [bandage plot](https://github.com/rrwick/Bandage) 

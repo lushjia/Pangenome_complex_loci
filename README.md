@@ -48,8 +48,9 @@ visualize and genotype structural variants in the human pangenome graphs (Figure
   Lines are drawn by curvature tool along with the gene. Arrows at the end of each line are added by changing stroke.  
   To make lines match the curve of the bandage plot, we adjusted the curve and position of each anchor by direct selection tool.   
   Exons are drawn by rectangle tool. Widths and positions are based on alignment results.
+  <p align="center">
       <img width="500" alt="Screenshot 2024-05-10 at 1 44 42 AM" src="https://github.com/lushjia/Pangenome_complex_loci/assets/38059727/3c11f344-188e-4fdf-b196-c8ba5e20bb6c">
-
+  </p>
   
   
 ## Genotype and visualize structural alleles 
@@ -59,7 +60,7 @@ visualize and genotype structural variants in the human pangenome graphs (Figure
 - Gene conversions are more complex to identiry, because they are not shown as bubbles in the graph.         
   we identified nodes that were different between a gene and its homologous gene (for example, RHD and RHCE) based on the GraphAligner alignments described above. We refer to these as paralogous sequence variants. A gene conversion event was detected if a path of a gene goes through more than four paralogous sequence variants of its homologous gene in a row.
 - Other small insertion, deletion and SNPs are not covered by this analysis. 
-           
+  <p align="center">      
   <img width="500" alt="Screenshot 2024-05-10 at 1 48 33 AM" src="https://github.com/lushjia/Pangenome_complex_loci/assets/38059727/cc4d03ca-3e99-4289-a800-e2546745cad4">
-
+  </p>
 

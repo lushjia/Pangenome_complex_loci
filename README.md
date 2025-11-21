@@ -16,7 +16,7 @@ visualize and genotype structural variants in the human pangenome graphs (Figure
   ```
 
 - extract subgraph using gfabase / odgi:  
-  ```
+  ```bash
   # minigraph-cactus graph (index graph first to get .gfab index file)
   gfabase sub GRCh38-f1g-90-mc-aug11.gfab GRCh38.chr1:25240000-25460000 --range --connected --view --cutpoints 1 --guess-ranges -o RH_locus.walk.gfa
   ## remove --connected parameter to include nodes and edges only in the output subgraph without paths, to make the file small and easy to load to bandage
@@ -31,7 +31,7 @@ visualize and genotype structural variants in the human pangenome graphs (Figure
 
 ## Identify gene position in the subgraph and visualize in bandage plot
 - We aligned Ensembl (release 106) GRCh38 version gene sequences to the MC graph and PGGB graph using GraphAligner (v.1.0.13) with parameter settings -x vg --try-all-seeds --multimap-score-fraction 0.1 to identify the gene positions within the graphs.
-  ```
+  ```bash
   GraphAligner -g chr1.pan.RH_locus.no_pline.gfa -f RHD.RHCE.fa -a RHD.RHCE.aln.more.gaf -x vg --try-all-seeds --multimap-score-fraction 0.3
   # --multimap-score-fraction could be change to include more or less alignment results based on your need
   ```
